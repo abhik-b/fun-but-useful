@@ -31,9 +31,9 @@ def btnclick():
 
 
 
-lbl=Label(root,text="hi there",bg="#151515",fg="#fff",font='Verdana 50 italic',textvariable=data2)
+lbl=Label(root,text="hi there",bg="#151515",fg="#fff",font='Verdana 25 italic',textvariable=data2)
 lbl.pack(expand=True,fill='both')
-lbl1=Label(root,text="hi there",bg="#151515",fg="#fff",font='Verdana 50 italic',textvariable=data)
+lbl1=Label(root,text="hi there",bg="#151515",fg="#fff",font='Verdana 25 italic',textvariable=data)
 lbl1.pack(expand=True,fill='both')
 btn1=Button(root,text="SPEAK",bg="#151515",fg="#00ff5e",font='Verdana 50 bold',border=0,command=btnclick)
 btn1.pack(expand=True,fill='both')
